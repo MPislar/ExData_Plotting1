@@ -1,6 +1,6 @@
 ######################################
 ###     Assessment 1 - Plot1       ###
-###     by: Mitja Piölar           ###
+###     by: Mitja Pi≈°lar           ###
 ###     Exploratora data analysis  ###
 ######################################
 
@@ -51,7 +51,7 @@ data <- read.table(file, header=F,  sep=";", na.strings = "?",
 data$Date_Time <- strptime(paste(data$Date, data$Time),
                             "%d/%m/%Y %H:%M:%S")
 
-## Setting my system to English names of weekdays:
+## Setting my system to English weekdays names:
 Sys.setlocale("LC_TIME","English")
 
 
